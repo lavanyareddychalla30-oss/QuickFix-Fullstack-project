@@ -1,0 +1,59 @@
+# ==========================================
+# QUICKFIX - FULL STACK PROJECT
+# ==========================================
+
+# ---------- BACKEND (Spring Boot / Java) ----------
+
+# Ignore local database and application credentials
+Backend/quickfix-backend/quickfix-backend/src/main/resources/application.properties
+
+# Maven build output
+Backend/quickfix-backend/quickfix-backend/target/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+logs/
+
+# ---------- FRONTEND (React / Vite) ----------
+
+# Node dependencies
+Frontend/quickfix/node_modules/
+
+# Production build output
+Frontend/quickfix/dist/
+
+# Environment variables and secrets
+Frontend/quickfix/.env
+Frontend/quickfix/.env.*
+
+# Keep the example environment file
+!Frontend/quickfix/.env.example
+
+# ---------- IDE FILES ----------
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# ---------- OPERATING SYSTEM FILES ----------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- TEMPORARY FILES ----------
+
+*.tmp
+*.temp
+*.swp
+*.bak
